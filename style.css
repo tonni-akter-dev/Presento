@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+*{
+    box-sizing: border-box       ;
+}
+/* navabr section starts here */
+.nav-link{
+    margin-right: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav-link a{
+    color: black;
+ 
+}
+/* section-1 starts here */
+.section-1{
+    background-image: url(img/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 550px;
+}
+.top-desc{
+    padding: 100px;
+}
+.sec1-header{
+    font-size: 3rem;
+}
+.sec1-para{
+    font-size: 1.5rem;
+}
+.sec1-btn{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+/* section-2 starts here */
+.clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #e03a3c;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #e03a3c;
+  }
+  
+  .clients .slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
+  
+  .clients .slide img:hover {
+    opacity: 2;
+    filter: none;
+  }
+  .swiper-wrapper{
+      display: flex;
+  }
+  
+/* section-4 starts here...... */
+.section-4{
+    background-image: url(bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+}
+.sec4-desc{
+    padding-left: 5px;
+}
+.section-4 .row{
+margin-left: 10px;
+}
+.section-4 .row h5{
+color: white;
+}
+.section-4 .row p{
+    color: gray;
+}
+/* section 5 starts here */
+.section-5 {
+margin-top: 90px;
+/* margin-bottom: 90px; */
+}
+/* .section-5 .col-md-3{
+ box-shadow: 10px 10px 10px gray;
+} */
+.color-danger{
+    color: rgb(189, 68, 68);
+
+  
+}
+/* section-6 */
+.section-6 .row .col{
+    padding: 8px 30px 9px 30px;
+    color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  align-items: center;
+  border: 2px solid gray;
+
+}
+.section-6 .row{
+    margin-left: 70px;
+}
+/* section8 */
+.top-service{
+    margin-top: 100px;
+}
+/* swction9 starts here.............. */
+.img-sizing{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(24, 23, 23);
+    color: gray;
+}
